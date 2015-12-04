@@ -1,2 +1,1 @@
-# cloud-yaas-business-service
-TBD
+Link to documentation will follow soon. 

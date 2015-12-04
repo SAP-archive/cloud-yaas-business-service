@@ -1,0 +1,14 @@
+{
+    "name": "hybris Service",
+    "references":[
+        {
+            "namespace": "api",
+            "description": "API definition of wishlist",
+            "path": "/",
+            "type": "raml",
+            "fileName": "wishlist.raml",
+            "packageName": "com.sample.wishlist.api.generated",
+            "async": false
+        }
+    ]
+}

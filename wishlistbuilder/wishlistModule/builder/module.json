@@ -1,0 +1,12 @@
+{
+    "widgets": [
+        {
+            "id": "wishlistWidget",
+            "title": "Wishlists",
+            "settings": {
+                "viewUrl": "wishlist.html",
+                "wishlistServiceUrl": "https://api.yaas.io/bmg/wishlist/v1"
+            }
+        }
+    ]
+}

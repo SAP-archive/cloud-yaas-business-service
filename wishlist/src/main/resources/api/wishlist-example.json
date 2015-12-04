@@ -1,0 +1,27 @@
+{
+  "id":"wish1",
+  "url":"http://myApi.de/wishlists/98hw85Y945e6U358",
+  "owner":"Floyd",
+  "title":"Floyd's Birthday Wishlist",
+  "description":"Bring on the presents:)",
+  "createdAt":"2015-12-03T12:42:23.777Z",
+  "items":
+  [
+    {
+      "product":"yKsU0yiPQUPgTIYm",
+      "amount":"1",
+      "note":"Always wanted a Ferrari",
+      "category": "Car", 
+      "link": "http://www.ferrari.com/de_de/auto", 
+      "createdAt":"2015-12-03T13:23:31.415Z"
+    },
+    {
+      "product":"ZdHErqRBhnJhJiVN",
+      "amount":"4",
+      "note":"Need some cool wheels for my new Ferrari",
+      "category": "Car", 
+      "link": "http://auto.ferrari.com/en_EN/wp-content/genuine-assets/en_EN/P000000210_en_F12_Berlinetta_F12_5-spoke_forged_wheels.pdf",  
+      "createdAt":"2015-12-03T13:37:11.111Z"
+    }
+  ]
+}

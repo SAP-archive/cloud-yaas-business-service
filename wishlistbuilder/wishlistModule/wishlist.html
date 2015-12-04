@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <meta charset="UTF-8">
+        <!-- custom stylesheets -->
+        <link href="https://builder.yaas.io/public/css/styles.css" rel="stylesheet" />
+        <script src="https://builder.yaas.io/public/js/vendor/jquery/dist/jquery.min.js"></script>
+        <script src="https://builder.yaas.io/public/js/vendor/angular/angular.js"></script>
+        <script src="https://builder.yaas.io/public/js/vendor/underscore/underscore.js"></script>
+        <script src="https://builder.yaas.io/public/js/vendor/restangular/dist/restangular.js"></script>
+        <script src="https://builder.yaas.io/public/js/builder.js"></script>
+        <script src="https://builder.yaas.io/public/js/builder_editors_v2.js"></script>
+        <script src="wishlistController.js"></script>
+        <title>Wishlists</title>
+        </head>
+  <body>
+   <div class="wrapper" ng-App="wishlistModule">
+       <div class="container-fluid" style="margin-left:10px;">
+           <div class="row" ng-controller="wishlistController">
+               <div class="page-header">
+                   <h1 id="header">Wishlists ({{wishlists.length}})</h1>
+               </div>
+               <div class="row">
+                   <div class="col-sm-12">
+                       <div class="panel panel-default">
+                           <!-- List group -->
+                           <ul class="list-group" >
+                               <li class="list-group-item" ng-repeat="wishlist in wishlists">
+                                   <h2 class="ng-binding list-group-item-heading">
+                                       {{wishlist.title}}
+                                       <small>(Description: {{wishlist.description}})</small>
+                                       <small>(Owner: {{wishlist.owner}})</small>
+                                   </h2>
+                               </li>
+                           </ul>
+                       </div>
+                   </div>
+               </div>
+           </div>
+       </div>
+   </div>
+   </body>
+</html>

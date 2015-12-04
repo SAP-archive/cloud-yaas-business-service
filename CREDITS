@@ -1,0 +1,21 @@
+This program references the following third party open source or other free download components.
+The third party licensors of these components may provide additional license rights,
+terms and conditions and/or require certain notices as described below.
+
+SLF4J (http://www.slf4j.org/)
+Licensed under MIT - http://www.slf4j.org/license.html
+
+EclipseLink
+Licensed under Eclipse Public License v1.0 - http://www.eclipse.org/eclipselink/downloads/ri.php
+
+Jersey 
+Licensed under CDDL v1.1 - https://jersey.java.net/license.html
+
+Springframework 
+Licensed under Apache Software License v2.0 - https://github.com/spring-projects/spring-framework 
+
+The transaction company - CORS filter
+Licensed under Apache Software License v2.0 - http://mvnrepository.com/artifact/com.thetransactioncompany/cors-filter/1.5.1
+
+AngularJS
+Licensed under The MIT License - https://angularjs.org/
